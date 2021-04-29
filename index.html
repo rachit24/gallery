@@ -13,21 +13,24 @@
     <link rel="icon" href="https://code.recuweb.com/c/u/3a09f4cf991c32bd735fa06db67889e5/2018/08/wordpress-photo-gallery-plugins1.png" type="image/x-icon"/>
   </head>
   <body>
-    <nav>
-      <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <label id="logo">Gallery</label>
-      <ul>
-        <li><a class="active" href="#animals">Animals</a></li>
-        <li><a href="#food">Food</a></li>
-        <li><a href="#nature">Nature</a></li>
-        <li><a href="#abs">Abstract</a></li>
-      </ul>
+    <nav class="navbar" id="nav">
+      <div class="brand">Gallery</div>
+      <div class="toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <div class="links">
+        <ul>
+          <li><a class="active" href="#animals">Animals</a></li>
+          <li><a href="#food">Food</a></li>
+          <li><a href="#nature">Nature</a></li>
+          <li><a href="#abs">Abstract</a></li>
+        </ul>
+    </div>
     </nav>
 
-    <a href="#logo" class="up"><i class="fas fa-arrow-up"></i></a>
+    <a href="#nav" class="up"><i class="fas fa-arrow-up"></i></a>
 
     <section>
       <h1 id="animals">Animals</h1>
@@ -477,7 +480,7 @@
         </a>
         <div class="desc">Add a description of the image here</div>
       </div>
-      
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
